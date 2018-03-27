@@ -46,6 +46,8 @@ public void OnPluginStart()
 {
 	LoadTranslations("namereward.phrases");
 	
+	CreateConVar("sm_namereward_version", VERSION, "Version", FCVAR_SPONLY|FCVAR_NOTIFY);
+	
 	gcv_Time = CreateConVar("sm_namereward_time", "60.0");
 	gcv_Credits = CreateConVar("sm_namereward_credits", "1");
 	gcv_Advert = CreateConVar("sm_namereward_advert", "Cola-Team.com");
