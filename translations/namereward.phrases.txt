@@ -1,0 +1,15 @@
+"Phrases"
+{
+	"NeedTag"
+	{
+		"#format"	"{1:s}"
+		"en"		"{purple}Put{green} {1} {purple}in your name for have access to special features!"
+		"es"		"{purple}Lleva{green} {1} {purple}en tu nombre para recibir caracteristicas especiales!"
+	}
+	"HaveTag"
+	{
+		"#format"	"{1:i},{2:s}"
+		"en"		"{purple}You received {1} extra credit/s for have{green} {2} {purple}in your name"
+		"es"		"{purple}Has recibido {1} credito/s extra por llevar{green} {2} {purple}en tu nombre"
+	}
+}
